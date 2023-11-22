@@ -1,0 +1,57 @@
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    .horizontal-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 5px 0;
+        width: auto;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .allcontact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mafren {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        margin-right: -30px;
+    }
+    
+    .mafrenc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .mafren img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .artikel {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+
+    footer {
+        margin-top: 20px;
+    }
+}

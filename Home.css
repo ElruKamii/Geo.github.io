@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+    ul.horizontal-list {
+        margin-left: 0;  
+    }
+
+    li {
+        width: auto;  
+        margin: 5px 10px;  
+    }
+
+    main hr {
+        margin-top: 0;  
+    }
+
+    .info {
+        padding-left: 20px;  
+        margin-top: 40px;  
+        display: flex;
+        justify-content: center;
+    }
+
+    .PP {
+        margin-top: 50px;  
+        height: 150px;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        align-items: center;
+    }
+
+    .ff {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .top {
+        margin-left: 10px; 
+    }
+}
